@@ -1,0 +1,8 @@
+version: '3'
+services:
+  pycgi1-service:
+    build: .
+    container_name: pycgi1-container
+    image: pycgi1-image
+    ports:
+      - 80:80

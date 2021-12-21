@@ -1,0 +1,1 @@
+start cmd /k docker-compose up ^&^& docker-compose down ^&^& docker rmi pycgi1-image
