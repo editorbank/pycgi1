@@ -1,1 +1,1 @@
-start cmd /k docker-compose up ^&^& docker-compose down ^&^& docker rmi pycgi1-image
+start "pycgi1-service" cmd /k docker-compose up --build ^&^& docker-compose down ^&^& docker rmi pycgi1-image
