@@ -9,8 +9,3 @@ print("<h3>Environment:</h3><pre>")
 for e in os.environ:
   print(e +"="+ os.environ[e])
 print("</pre><br/>")
-
-
-print("<h3>Paths:</h3><pre>")
-print('\n'.join(sys.path))
-print("</pre><br/>")
